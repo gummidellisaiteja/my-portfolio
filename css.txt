@@ -1,0 +1,205 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header & Navbar */
+header {
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+/* Navbar Container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color:black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Responsive Navbar - Hamburger Menu */
+.menu-toggle {
+    display: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(120deg, #ff9800, #ff5722);
+    color: white;
+    padding: 120px 20px;
+}
+
+.Profile-Picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #ff9800;
+}
+
+/* About & Skills Section */
+#about, #skills, #projects, #contact {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skill {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.progress {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: #ff9800;
+    height:100%;
+    transition: width 1s;
+}
+.Project-Container{
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    align-items:center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .project-card{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 3px 6px rgb(rgb(179, 168, 168), rgb(24, 24, 24), rgb(166, 166, 174));
+ }
+
+ .project-card img{
+    width: 100%;
+    border-radius: 5px;
+ }
+ .project-card h3{
+    margin: 10px;
+ }
+ /contact me/
+
+ form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+ }
+
+
+ input,textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 2px solid #eff3ef;
+ }
+
+ button{
+    background: #2f2f2f;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ button:hover{
+    color: #38edf7;
+ }
+ 
+ footer{
+    background: #2f2f2f;
+    padding: 50px;
+    color: white;
+    border-bottom: 20px;
+    margin-top: 50px;
+ }
